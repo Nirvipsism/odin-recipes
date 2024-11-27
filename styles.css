@@ -1,0 +1,162 @@
+.recipetitlehomepage {
+    font-family: 'Playfair Display', serif; /* Elegante e classico per ricette */
+    font-size: 2.5rem; /* Dimensione accattivante */
+    font-weight: 600; /* Semi-bold per leggibilità */
+    color: #4b2e83; /* Un viola intenso per un tocco raffinato */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Ombra leggera per profondità */
+    text-align: center; /* Testo centrato */
+    letter-spacing: 1px; /* Spaziatura armoniosa */
+    margin: 20px auto; /* Spaziatura esterna */
+    padding: 15px; /* Spazio interno per leggibilità */
+    background: linear-gradient(90deg, #ffbe76, #ff7979); /* Gradiente caldo che richiama il cibo */
+    -webkit-background-clip: text; /* Clip per gradienti */
+    -webkit-text-fill-color: transparent; /* Solo testo con gradiente */
+    border-bottom: 2px solid #ffbe76; /* Linea decorativa sotto il titolo */
+  }
+
+  /* Styling for .first-line */
+.first-line {
+    font-family: 'Playfair Display', serif; /* Matches the elegance of the title */
+    font-size: 1.3rem; /* Slightly larger for emphasis */
+    color: #555; /* Neutral color for readability */
+    text-align: center; /* Center aligns with the title */
+    margin-top: 10px; /* Adds space below the title */
+    margin-bottom: 20px; /* Separates from the list */
+  }
+  
+  .first-line strong {
+    color: #ff7979; /* Highlight the word 'best' with an appetizing color */
+    font-weight: bold; /* Emphasize further */
+  }
+  
+  /* Styling for .list-homepage */
+  .list-homepage {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Removes default padding */
+    text-align: center; /* Centers the list */
+  }
+  
+  .list-homepage li {
+    margin: 25px 0; /* Adds spacing between list items */
+  }
+  
+  .list-homepage a {
+    font-family: 'Playfair Display', serif; /* Consistent font styling */
+    font-size: 1.3rem; /* Easy-to-read size */
+    text-decoration: none; /* Removes underlines */
+    color: #4b2e83; /* Rich violet for elegance */
+    border: 2px solid #ffbe76; /* Adds a border for emphasis */
+    padding: 8px 15px; /* Creates button-like appearance */
+    border-radius: 5px; /* Rounds the corners */
+    transition: background-color 0.5s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .list-homepage a:hover {
+    background-color: #ffbe76; /* Highlight the link on hover */
+    color: white; /* Contrast text color for better visibility */
+  }
+  
+  
+  /* Recipe Page General Styling */
+body.recipe-page {
+    font-family: 'Playfair Display', serif;
+    background-color: #fffaf0; /* Neutral, warm background */
+    color: #333; /* Dark gray text for readability */
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  /* Recipe Page Title */
+  .recipe-title {
+    font-size: 2.5rem; /* Eye-catching size */
+    font-weight: 600;
+    color: #4b2e83; /* Rich violet for elegance */
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: linear-gradient(90deg, #ffbe76, #ff7979); /* Gradiente caldo che richiama il cibo */
+    -webkit-background-clip: text; /* Clip per gradienti */
+    -webkit-text-fill-color: transparent; /* Solo testo con gradiente */
+  }
+  
+  /* Recipe Image */
+  .recipe-image {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border: 3px solid #ffbe76; /* Decorative border */
+    border-radius: 10px; /* Rounded edges */
+    max-width: 600px; /* Restrict maximum size */
+    height: auto;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.8rem;
+    color: #4b2e83; /* Matches recipe title */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffbe76; /* Decorative line */
+    padding-bottom: 5px;
+    background: linear-gradient(90deg, #ffbe76, #ff7979); /* Gradiente caldo che richiama il cibo */
+    -webkit-background-clip: text; /* Clip per gradienti */
+    -webkit-text-fill-color: transparent; /* Solo testo con gradiente */
+    border-bottom: 2px solid #ffbe76; /* Linea decorativa sotto il titolo */
+  }
+  
+  /* Recipe Description */
+  .recipe-description {
+    font-size: 1rem;
+    color: #555; /* Subtle text color for readability */
+    text-align: justify; /* Neat alignment for paragraphs */
+    margin-bottom: 15px;
+  }
+  
+  /* Recipe Ingredients List */
+  .recipe-ingredients {
+    list-style-type: circle; /* Elegant bullet style */
+    color: #555;
+    padding-left: 20px; /* Indented for readability */
+    margin: 20px auto;
+    max-width: 600px; /* Centered and narrow */
+  }
+  
+  .recipe-ingredients li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Recipe Steps List */
+  .recipe-steps {
+    list-style-type: decimal;
+    color: #555;
+    padding-left: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .recipe-steps li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  /* Back to Homepage Button */
+.back-home {
+    text-align: center; /* Center the link */
+    margin: 30px 0; /* Add space above and below */
+  }
+  
+  .back-home-link {
+    font-family: 'Playfair Display', serif; /* Match the recipe font */
+    font-size: 1.1rem; /* Slightly larger text */
+    color: #4b2e83; /* Consistent violet color */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid #ffbe76; /* Border matching the page's style */
+    padding: 10px 20px; /* Button-like appearance */
+    border-radius: 5px; /* Smooth, rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .back-home-link:hover {
+    background-color: #ffbe76; /* Change background color on hover */
+    color: white; /* Make text white on hover for contrast */
+  }
