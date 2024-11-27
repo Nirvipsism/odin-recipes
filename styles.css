@@ -85,10 +85,10 @@ body.recipe-page {
     margin: 0 auto; /* Center the image */
     border: 3px solid #ffbe76; /* Decorative border */
     border-radius: 10px; /* Rounded edges */
-    max-width: 600px; /* Restrict maximum size */
+    max-width: 400px; 100%; /* Restrict maximum size */
     height: auto;
   }
-  
+
   /* Section Titles */
   .section-title {
     font-size: 1.8rem;
@@ -116,7 +116,7 @@ body.recipe-page {
     list-style-type: circle; /* Elegant bullet style */
     color: #555;
     padding-left: 20px; /* Indented for readability */
-    margin: 20px auto;
+    margin: 20px;
     max-width: 600px; /* Centered and narrow */
   }
   
@@ -130,7 +130,7 @@ body.recipe-page {
     list-style-type: decimal;
     color: #555;
     padding-left: 20px;
-    margin: 20px auto;
+    margin: 20px;
     max-width: 600px;
   }
   
